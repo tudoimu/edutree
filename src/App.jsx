@@ -218,7 +218,7 @@ const steps = [
           </div>
         </section>
 
-<section id="process" className="process-section reveal">
+<section id="process" className="process-section">
   <div className="section-chip pink-chip">Quy trình sử dụng</div>
   <h2>Tạo đề cùng EduTree chỉ với 4 bước</h2>
 
@@ -234,6 +234,12 @@ const steps = [
         <div className="process-image">
           <img src={step.img} alt={step.title} />
         </div>
+        <img
+  src={step.img}
+  alt={step.title}
+  loading="lazy"
+  decoding="async"
+/>
       </article>
     ))}
   </div>
