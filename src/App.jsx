@@ -234,12 +234,7 @@ const steps = [
         <div className="process-image">
           <img src={step.img} alt={step.title} />
         </div>
-        <img
-  src={step.img}
-  alt={step.title}
-  loading="lazy"
-  decoding="async"
-/>
+
       </article>
     ))}
   </div>
