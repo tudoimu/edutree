@@ -114,7 +114,6 @@ const steps = [
   >
     Xem bảng giá
   </a>
-  <a href="#hall">Hall of Fame</a>
 </nav>
           
           <button type="button" className="login-btn" onClick={openModal}>
@@ -239,25 +238,6 @@ const steps = [
     ))}
   </div>
 </section>
-
-        <section id="hall" className="hall-section reveal">
-          <div className="section-chip pink-chip">🏆 Thành tích nổi bật</div>
-          <h2>Thủ khoa kỳ thi tốt nghiệp THPT Quốc gia 2022</h2>
-
-          <div className="score-card">
-            <div className="founder-pill">👑 Phạm Văn Linh</div>
-
-            <div className="score-main">56,85/60</div>
-
-            <div className="score-split">
-              <div>
-                <span>Nhà sáng lập và phát triển AI của EduTree</span>
-              </div>
-            </div>
-
-            <p>Sẵn sàng đồng hành cùng bạn trong việc tạo nội dung học tập chất lượng hơn.</p>
-          </div>
-        </section>
 
         <section id="join" className="cta-section reveal">
           <div className="cta-box">
